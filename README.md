@@ -1,4 +1,4 @@
-# [Suspension of prominent accounts minimally impacts follower engagement](https://github.com/josephbb/TwitterSuperUserRemovals)
+# [Suspension of prominent accounts minimally impacts follower engagement](https://github.com/kduskin/TwitterSuspendedUsers)
 Kayla Duskin (1, 2), Jevin West (1,2) and Joseph B. Bak-Coleman(3)
 
 1. University of Washington Center for an Informed Public
@@ -41,7 +41,7 @@ You can reproduce the analysis, including all figures and tables by following th
 ### Getting the code
 First download this repository. Either download directly or open a command line and type:
 
-    git clone https://github.com/josephbb/TwitterSuperUserRemovals
+    git clone https://github.com/kduskin/TwitterSuspendedUsers
 
 ## Dependency installation guide
 You will an [Anaconda](https://docs.anaconda.com/anaconda/install/index.html) or python installation and command-line interface. The simplest way to install the requirements is to navigate to the directory and type ``pip install -r requirements.txt``. You may, however, wish to install these in a [virtual environment](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) to avoid conflicts with your currently installed python packages. Note that installing these packages, particularly Stan and Pystan can take time and require compilation on your local machine.
