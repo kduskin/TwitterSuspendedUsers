@@ -51,33 +51,3 @@ You can reproduce the analysis of the aggregated date, including all figures and
 First download this repository. Either download directly or open a command line and type:
 
     git clone https://github.com/kduskin/TwitterSuspendedUsers
-
-%## Dependency installation guide
-%You will an [Anaconda](https://docs.anaconda.com/anaconda/install/index.html) or python installation and command-line interface. The simplest way to install the requirements is to navigate to the directory and type ``pip install -r requirements.txt``. You may, however, wish to install these in a [virtual environment](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) to avoid conflicts with your currently installed python packages. Note that installing these packages, particularly Stan and Pystan can take time and require compilation on your local machine.
-
-%### Running the analysis
-
-%The simplest approach is to navigate to the directory and simply type:
-
-%    jupyter nbconvert --execute ./analysis.ipynb --ExecutePreprocessor.timeout -1
-%This will generate a rendered output of the notebook(``.HTML``) that you can open in your browswer, along with all figures and tables on your local machine. Please note that this code can take a long time (perhaps hours) to run, necessitating  timeout being set to -1 in the command above.  . You may prefer simply to open and review the notebook using
-
-%    jupyter notebook
-
-
-%## Project structure when complete
-
-%Once the full analysis has been run, figures can be found in ``out/figures``, posterior predictive figures for every follower in ``out/figures/posteriors``` and MCMC chains in ``out/posteriors``.
-
-%#System Specifications
-
-%Beyond what is in requirements.txt, this analysis was run on a machine with the following configuration.
-
-%- MacBook Pro (16-inch, 2021)
-%- CPU: Apple M1 Pro
-%%- Memory: 16 GiB
-%- OS: MacOS Montery 12.15.1
-%- Python: 3.11.0
-%- Conda: 22.9.0
-%- Pystan 3.3.0
-%- clang 14
